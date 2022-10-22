@@ -8,19 +8,24 @@
   <meta name="author" content="John Doe">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<link rel="icon" type="image/x-icon" href="/images/magicBallStart_250.png"><!--no jpg file-->
-    <title>Welcome to the Eight Ball</title>
+<link rel="icon" type="image/x-icon" href="/images/ron_png.png"><!--no jpg file-->
+    <title>Ask Ron Swanson</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 <body>
   <section class="flex-container">
-    <h1>Welcome to the Eight Ball</h1>
-  <img src="./images/magicBallStart_300.png" alt="eight ball" id="eight-ball" />
-   <label for="question">Ask me anything</label>
+    <h1>Ask Ron Swanson</h1>
+    <picture>
+      <source media="(min-width:650px)" srcset="images/ron_swanson_600.jpg">
+      <source media="(min-width:465px)" srcset="images/ron_swanson_450.jpg">
+      <source media="(min-width:350px)" srcset="images/ron_swanson_300.jpg">
+      <img src="images/ron_swanson_250.jpg" alt="Ron Swanson" style="width:auto;">
+    </picture>
+   <label for="question" class="fw-bold fs-2 py-3">Ask Ron anything:</label>
 <input type="text" id ="question" />
 <h3 id="answer"></h3>
-<button id = "button" type="button" class="btn btn-dark btn-lg">Shake Me</button>
+<button id = "button" type="button" class="btn btn-dark btn-lg">Ask</button>
      </section>
     <script src="javascript/index.js"></script>
   

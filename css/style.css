@@ -1,26 +1,9 @@
-#eight-ball {
-    padding-bottom: 10vh;
-}
 
 .flex-container{
-    height: 100vh;
+    /* height: 100vh; */
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content: center;
 }
-
-/* #button {
-    background-color: black;
-    color:white;
-    border-radius: 10px;
-    height: 
-} */
-
-
-
-
-
-
-
 
