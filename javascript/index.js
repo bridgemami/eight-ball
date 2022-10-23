@@ -5,7 +5,8 @@ let response = await api.json();
 		console.log(response[0]);
 		document.getElementById('button').addEventListener('click',
 		() => {document.getElementById('answer').innerHTML=`${response[0]}`
-		eightBall();
+		eightBall()
+
 	}	
 		)
 }
@@ -13,5 +14,12 @@ catch(err) {
 	console.error(err)
 }
 }
-
 eightBall();
+
+function resets(){
+	document.getElementById('empty').addEventListener('click', ()=>{
+	document.getElementById('form').reset()
+	document.getElementById('answer').style.display='none';
+})
+}
+resets()

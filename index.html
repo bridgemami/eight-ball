@@ -22,11 +22,14 @@
       <source media="(min-width:350px)" srcset="images/ron_swanson_300.jpg">
       <img src="images/ron_swanson_250.jpg" alt="Ron Swanson" style="width:auto;">
     </picture>
+    <form id="form">
    <label for="question" class="fw-bold fs-2 py-3">Ask Ron anything:</label>
-<input type="text" id ="question" placeholder="Ask away" />
+<input type="text" id ="question" placeholder="Ask away" required/>
 <h3 id="answer" class="p-3"></h3>
-<button id = "button" type="button" class="btn btn-dark btn-lg mb-3">Ask</button>
-     </section>
+<button id="button" type="button" class="btn btn-dark btn-lg mb-3">Ask</button>
+<button type="reset" id="empty" class="btn btn-dark btn-lg mb-3">Reset</button>
+    </form>     
+</section>
     <script src="javascript/index.js"></script>
   
 </body>
