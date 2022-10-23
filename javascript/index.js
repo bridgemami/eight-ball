@@ -21,7 +21,8 @@ function resets(){
 	document.getElementById('empty').addEventListener('click', ()=>{
 	document.getElementById('clear').reset()
 	document.getElementById('answer').style.display='none'
-	document.getElementById('chair').style.display='none';
+	document.getElementById('chair').style.display='none'
+	resets()
 })
 }
 resets()
