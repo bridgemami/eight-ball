@@ -1,0 +1,34 @@
+[
+    {
+        "image": "./images/gif/do_not_joke.gif",
+        "alt": "Ron does not joke."
+    },
+    {
+        "image": "./images/gif/dont_sass_me.gif",
+        "alt": "Ron does not like sass."
+    },
+    {
+        "image": "./images/gif/dont-ignore-me-ignore.gif",
+        "alt": "Ron ignoring a person."
+    },
+    {
+        "image": "./images/gif/regret.gif",
+        "alt": "Ron has no regret."
+    },
+    {
+        "image": "./images/gif/smile.gif",
+        "alt": "Ron smiling."
+    },
+    {
+        "image": "./images/gif/rabbit.gif",
+        "alt": "Ron is not a rabbit."
+    },
+    {
+        "image": "./images/gif/do_not_lie.gif",
+        "alt": "Ron does not lie."
+    },
+    {
+        "image": "./images/gif/no.gif",
+        "alt": "Ron likes saying no."
+    }
+]
