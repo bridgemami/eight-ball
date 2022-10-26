@@ -1,4 +1,4 @@
-async function eightBall() {
+async function answerWithQuestion() {
 	try {
 let api = await fetch('https://ron-swanson-quotes.herokuapp.com/v2/quotes');
 let response = await api.json();
@@ -11,13 +11,13 @@ let response = await api.json();
 			if(lengthAnswer > 0) {
 			document.getElementById('answer').style.display='block'
 			document.getElementById('answer').innerHTML=`${response[0]}`
-			document.getElementById('chair').style.display='block'
-			eightBall()
+			// document.getElementById('chair').style.display='block'
+			answerWithQuestion()
 			}
 			else {
 				document.getElementById('answer').style.display='block'
 			document.getElementById('answer').innerHTML=`Please enter a question`
-		 eightBall()
+			answerWithQuestion()
 			}
 		});
 	
@@ -26,7 +26,7 @@ catch(err) {
 	console.error(err)
 }
 }
-eightBall();
+answerWithQuestion();
 
 function resets(){
 	document.getElementById('empty').addEventListener('click', ()=>{
