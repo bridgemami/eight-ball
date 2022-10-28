@@ -30,5 +30,9 @@
     {
         "image": "./images/gif/no.gif",
         "alt": "Ron likes saying no."
+    },
+    {
+        "image": "/images/gif/try_again.gif",
+        "alt": "Ron asks you to try again."
     }
 ]

@@ -51,7 +51,8 @@ resets()
 			console.log(answer.value + lengthAnswer)
 			if(lengthAnswer > 0) {
 				console.log(`json length is ${data.length}`)
-				let random = (Math.floor(Math.random()*data.length));
+				console.log(data.length)
+				let random = (Math.floor(Math.random()*(data.length-1)));
 				console.log(random)
 				document.getElementById('chair').style.display='block'
 				document.getElementById("chair").src=`${data[random].image}`
@@ -60,8 +61,8 @@ resets()
 			}
 			else {
 				document.getElementById('chair').style.display='block'
-				document.getElementById("chair").src=`/images/gif/try_again.gif`
-				document.getElementById("chair").alt=`Ron asks you to try again`
+				document.getElementById("chair").src=`${data[8].image}`
+				document.getElementById("chair").alt=`${data[8].alt}`
 			image()
 			}
 		});
