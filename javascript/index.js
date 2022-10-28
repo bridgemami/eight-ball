@@ -38,7 +38,7 @@ function resets(){
 }
 resets()
  function image () {
-	fetch('../gif.json')
+	fetch('./gif.json')
 	.then(  (response) =>{
 		return response.json();
 	})
