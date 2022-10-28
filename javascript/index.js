@@ -60,7 +60,7 @@ resets()
 			}
 			else {
 				document.getElementById('chair').style.display='block'
-				document.getElementById("chair").src=`../images/gif/try_again.gif`
+				document.getElementById("chair").src=`/images/gif/try_again.gif`
 				document.getElementById("chair").alt=`Ron asks you to try again`
 			image()
 			}
