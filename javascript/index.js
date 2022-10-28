@@ -69,7 +69,7 @@ resets()
 	}
 	)
 	.catch((error) =>{
-		console.error(error)
+		console.error(`The reason is: ${error}`)
 	}
 	)
  }
